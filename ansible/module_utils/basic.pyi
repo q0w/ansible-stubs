@@ -9,7 +9,7 @@ def get_platform() -> str: ...
 def missing_required_lib(library: str, reason: str | None = ..., url: str | None = ...) -> str: ...
 
 class AnsibleModule:
-    params: Mapping[str, Any]
+    params: MutableMapping[str, Any]
     argument_spec: Mapping[str, Mapping[str, Any]]
     supports_check_mode: bool
     check_mode: bool
