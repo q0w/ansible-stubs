@@ -1,0 +1,6 @@
+mypy==0.960
+black==22.3.0
+flake8==4.0.1
+flake8-bugbear==21.11.29
+flake8-pyi==22.5.1
+isort==5.10.1
